@@ -1,0 +1,17 @@
+{
+  "name": "LightBot",
+  "about": "Бот, що відстежує наявність світла та повідомляє про це в телеграм",
+  "version": "1.0",
+  "notes": "Перше видання",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Mark-RT/myUpdater/main/LBot/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
