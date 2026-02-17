@@ -1,8 +1,8 @@
 {
   "name": "LightBot",
   "about": "Бот, що відстежує наявність світла та повідомляє про це в телеграм",
-  "version": "1.5.4",
-  "notes": "Додано broadcast",
+  "version": "1.5.5",
+  "notes": "Щось покращено",
   "builds": [
     {
       "chipFamily": "ESP8266",
