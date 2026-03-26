@@ -1,0 +1,17 @@
+{
+  "name": "WiFi-DMX_Controller",
+  "about": "Для молодіжного центру, де встановлено 2 кольорових та 1 білий для проповідника прожектора",
+  "version": "2.2",
+  "notes": "Додано 3-й прожектор (білий), WiFiConnector та AutoOTA",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Mark-RT/myUpdater/main/WiFiDMX3/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
